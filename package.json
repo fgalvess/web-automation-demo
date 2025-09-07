@@ -1,0 +1,16 @@
+{
+  "name": "web-automation-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test-headed": "npx playwright test -g \"%npm_config_test_name%\" --headed",
+    "report": "playwright show-report"
+  },
+  "author": "Fábio Guerra",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1"
+  }
+}
